@@ -1,0 +1,62 @@
+/* selector{
+    property : value;
+} */
+*{
+    text-align: right;
+}
+body{
+    background-image: url(backgroundimg.jpeg);
+    background-size: cover;
+}
+h3:hover{   
+    color : #E7487E;
+    text-align: center;
+    border : 5px solid rgb(210, 140, 160, 0.5);
+    cursor : pointer;
+}
+p{
+    /* text-decoration: underline; */
+
+    color : rgb(74, 12, 12);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    display : inline-block;
+}
+.ptagtext:first-child{
+    border : 5px solid rgb(220, 140, 160);
+}
+.ac{
+    color: red;
+}
+#div1{
+    background-color: #b87d91;
+}
+#div2{
+    background-color: rgb(139, 139, 212);
+}
+/* [h3 p] Element , element div and p
+ele   ele select all p ele inside div
+ele > ele  select all p ele where parent is h3
+ele + ele select p if only after h3*/
+
+/* from sec 44 styles */
+.paddingmargin { 
+    border : 5px solid rgb(32, 32, 79);
+    display :inline-block;
+    padding : 5px 20px 5px 20px;
+    margin : 10px 50px 20px 90px;
+}
+span{
+    font-size: 2rem;
+}
+
+
